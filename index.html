@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,7 +7,54 @@
     <title>Vite + React</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div
+      class="header finisher-header"
+      style="width: 100%; position: fixed; top: 0; left: 0; z-index: 1"
+    ></div>
+    <div id="root" style="z-index: 2"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script
+      src="./src/plugin/finisher-header.es5.min.js"
+      type="text/javascript"
+    ></script>
   </body>
 </html>
+
+<style>
+  #finisher-canvas {
+    height: 100vh;
+    width: 100vw;
+  }
+</style>
+
+<script type="text/javascript">
+  new FinisherHeader({
+    count: 35,
+    size: {
+      min: 5,
+      max: 120,
+      pulse: 0.1,
+    },
+    speed: {
+      x: {
+        min: 0,
+        max: 0.2,
+      },
+      y: {
+        min: 0,
+        max: 0.4,
+      },
+    },
+    colors: {
+      background: "#f4f3f6",
+      particles: ["#ffe960", "#87ddfe", "#8cff81", "#fa7ca6", "#e2ffa5"],
+    },
+    blending: "overlay",
+    opacity: {
+      center: 0.2,
+      edge: 0.2,
+    },
+    skew: 0,
+    shapes: ["c"],
+  });
+</script>
