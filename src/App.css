@@ -1,8 +1,10 @@
 #root {
   max-width: 1280px;
+  min-height: 100vh;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  color: black;
+  display: flex;
 }
 
 .logo {
@@ -16,6 +18,72 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@media (max-width: 1200px) {
+  .resume-container {
+    width: 92vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .resume-container {
+    width: 1200px;
+  }
+}
+
+.Card-About-Me {
+  box-shadow: rgba(171, 243, 227, 0.733) 5px 5px,
+    rgba(171, 243, 227, 0.3) 10px 10px, rgba(171, 243, 227, 0.2) 15px 15px,
+    rgba(171, 243, 227, 0.1) 20px 20px, rgba(171, 243, 227, 0.05) 25px 25px;
+  padding: 0.5rem;
+  padding-top: 4px;
+  font-weight: 500;
+  color: rgb(8, 51, 68);
+  border-width: 4px;
+  border-color: #abf3e3;
+}
+
+.Card-Education {
+  box-shadow: rgba(180, 255, 193, 0.842) 5px 5px,
+    rgba(180, 255, 193, 0.3) 10px 10px, rgba(180, 255, 193, 0.2) 15px 15px,
+    rgba(180, 255, 193, 0.1) 20px 20px, rgba(180, 255, 193, 0.05) 25px 25px;
+  padding: 0.5rem;
+  padding-top: 4px;
+  font-weight: 500;
+  color: rgb(8, 51, 68);
+  border-width: 4px;
+  border-color: rgb(180, 255, 193);
+}
+.Card-TechnicalSkill {
+  box-shadow: rgba(219, 140, 255, 0.842) 5px 5px,
+    rgba(219, 140, 255, 0.3) 10px 10px, rgba(219, 140, 255, 0.2) 15px 15px,
+    rgba(219, 140, 255, 0.1) 20px 20px, rgba(219, 140, 255, 0.05) 25px 25px;
+  padding: 0.5rem;
+  padding-top: 4px;
+  font-weight: 500;
+  color: rgb(8, 51, 68);
+  border-width: 4px;
+  border-color: rgb(219, 140, 255);
+}
+.Card-SoftSkill {
+  box-shadow: rgba(253, 138, 196, 0.842) 5px 5px,
+    rgba(253, 138, 196, 0.3) 10px 10px, rgba(253, 138, 196, 0.2) 15px 15px,
+    rgba(253, 138, 196, 0.1) 20px 20px, rgba(253, 138, 196, 0.05) 25px 25px;
+  padding: 0.5rem;
+  padding-top: 4px;
+  font-weight: 500;
+  color: rgb(8, 51, 68);
+  border-width: 4px;
+  border-color: rgb(253, 138, 196);
+}
+.resume-container {
+  min-height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  margin: 2em 0;
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 
 @keyframes logo-spin {
