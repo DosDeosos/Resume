@@ -49,8 +49,7 @@ function App() {
       startyear: 2016,
       endyear: 2019,
       degree: "Aviation Management - Bachelor Degree",
-      faculty:
-        "Airport Management Faculty at Civil Aviation Trainer Center (CATC)",
+      faculty: "Airport Management at Civil Aviation Trainer Center (CATC)",
     },
   ];
 
@@ -211,7 +210,8 @@ function App() {
                     autoplay
                     loop
                   />
-                  Degree: {data.degree}
+                  Degree: {data.degree} <br />
+                  Faculty: {data.faculty}
                 </div>
               </div>
             </div>
