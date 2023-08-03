@@ -99,7 +99,7 @@ function App() {
           <div className="text-[16px] lg:text-[20px] text-cyan-950">
             A Full-Stack Developer with passion!, <br /> I strive to be a better
             version of myself.
-            <br /> Aviation turns Programmer!
+            <br /> Aviation turns Developer!
           </div>
           <div className="mt-6">
             <div className=" flex">
