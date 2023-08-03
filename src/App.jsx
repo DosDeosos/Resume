@@ -2,12 +2,41 @@ import { useState } from "react";
 import "./App.css";
 import { useEffect } from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
+import Brain from "./assets/icons/brain.json";
+import Document from "./assets/icons/document.json";
+import Clock from "./assets/icons/clock.json";
 
 function App() {
   const [name, setName] = useState("");
   const nameData = ["I'm Vuttipat Srisumran", "A Full-Stack Developer"];
   const [index, setIndex] = useState(0);
   const [namelength, setNamelength] = useState(0);
+  const aboutMe = [
+    {
+      Icon: "https://lottie.host/4f708088-23f1-4c37-841f-7bd8069102dd/TzveQ5Lfd3.json",
+      text: "Able to work anywhere, anytime.",
+    },
+    {
+      Icon: "https://lottie.host/a95ec2eb-828c-4bee-a8e7-1cdc1cae3a72/ogTfJGs12I.json",
+      text: "A lot of passion towards coding, Mainly modifications of my own projects.",
+    },
+    {
+      Icon: "https://lottie.host/d648cc21-a59a-480f-b57d-5f8d3db218d6/tBBkPfu1tu.json",
+      text: "Self-Learning and the ability to learn quickly from the surrounding environment.",
+    },
+    {
+      Icon: Brain,
+      text: "Open-minded <br/> and able to work with everyone.",
+    },
+    {
+      Icon: Document,
+      text: "Ability to read documents <br/> and apply them to projects.",
+    },
+    {
+      Icon: Clock,
+      text: "Ability to work in shift <br/> or disordered time.",
+    },
+  ];
 
   const setNameFunction = () => {
     const nametouse = nameData[index];
@@ -106,17 +135,19 @@ function App() {
         About Me
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-5 mt-4">
-        <div className="Card-About-Me">
-          <Player
-            src="https://lottie.host/4f708088-23f1-4c37-841f-7bd8069102dd/TzveQ5Lfd3.json"
-            className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
-            autoplay
-            loop
-          />
-          Able to work anywhere, anytime.
-        </div>
-        <div className="Card-About-Me">Hello2</div>
-        <div className="Card-About-Me">Hello3</div>
+        {aboutMe.map((data, index) => {
+          return (
+            <div key={index} className="Card-About-Me">
+              <Player
+                src={data.Icon}
+                className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
+                autoplay
+                loop
+              />
+              <span dangerouslySetInnerHTML={{ __html: data.text }}></span>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

@@ -36,7 +36,8 @@
   box-shadow: rgba(171, 243, 227, 0.733) 5px 5px,
     rgba(171, 243, 227, 0.3) 10px 10px, rgba(171, 243, 227, 0.2) 15px 15px,
     rgba(171, 243, 227, 0.1) 20px 20px, rgba(171, 243, 227, 0.05) 25px 25px;
-  padding-bottom: 1rem;
+  padding: 0.5rem;
+  padding-top: 4px;
   font-weight: 500;
   color: rgb(8, 51, 68);
   border-width: 4px;
