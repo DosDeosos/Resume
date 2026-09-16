@@ -1,0 +1,10 @@
+autoInstallPeers: true
+strictPeerDependencies: false
+allowBuilds:
+  "@parcel/watcher": true
+  "@swc/core": true
+  core-js: true
+  core-js-pure: true
+  esbuild: true
+  sharp: true
+  unrs-resolver: true

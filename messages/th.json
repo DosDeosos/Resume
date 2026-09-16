@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "title": "วุฒิพัฒน์ ศรีสำราญ — Full-Stack Developer",
+    "description": "เรซูเม่แบบอินเทอร์แอคทีฟของ วุฒิพัฒน์ ศรีสำราญ นักพัฒนา Full-Stack ในกรุงเทพฯ เชี่ยวชาญ Next.js, React, TypeScript, Three.js และแพลตฟอร์มเว็บหลายภาษา"
+  },
+  "a11y": {
+    "skipToContent": "ข้ามไปยังเนื้อหา",
+    "languageMenu": "ภาษา",
+    "sectionNav": "หัวข้อ",
+    "openLink": "เปิดในแท็บใหม่",
+    "decorativeScene": "ฉาก 3 มิติเพื่อการตกแต่ง",
+    "profilePhoto": "รูปถ่ายของ วุฒิพัฒน์ ศรีสำราญ"
+  },
+  "nav": {
+    "hero": "หน้าแรก",
+    "about": "เกี่ยวกับ",
+    "experience": "ประสบการณ์",
+    "applications": "ผลงาน",
+    "stack": "เทคโนโลยี",
+    "softSkills": "ทักษะด้านอารมณ์",
+    "education": "การศึกษา",
+    "showcase": "โชว์เคส",
+    "locales": { "en": "EN", "th": "TH" },
+    "storybook": "Storybook",
+    "tour": "นำชม",
+    "downloadPdf": "ดาวน์โหลด PDF"
+  },
+  "hero": {
+    "greeting": "สวัสดีครับ!",
+    "lines": {
+      "name": "ผม วุฒิพัฒน์ ศรีสำราญ",
+      "role": "นักพัฒนา Full-Stack"
+    },
+    "tagline": "นักพัฒนา Full-Stack ที่เต็มไปด้วยแพสชัน\nมุ่งมั่นพัฒนาตัวเองให้ดีขึ้นทุกวัน\nจากสายการบิน สู่นักพัฒนาซอฟต์แวร์!",
+    "contacts": {
+      "email": "อีเมล",
+      "phone": "โทรศัพท์",
+      "line": "LINE",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "address": "ที่อยู่"
+    },
+    "addressValue": "ลุมพินี ทาวน์วิลล์ เพิ่มสิน-วัชรพล แขวงออเงิน เขตสายไหม กรุงเทพฯ 10220"
+  },
+  "about": {
+    "title": "เกี่ยวกับผม",
+    "items": {
+      "anywhere": "ทำงานได้ทุกที่ ทุกเวลา",
+      "passion": "หลงใหลในการเขียนโค้ด โดยเฉพาะการต่อยอดโปรเจกต์ของตัวเอง",
+      "selfLearning": "เรียนรู้ด้วยตัวเอง และปรับตัวเรียนรู้จากสภาพแวดล้อมรอบตัวได้อย่างรวดเร็ว",
+      "openMinded": "เปิดใจกว้าง\nและทำงานร่วมกับทุกคนได้",
+      "documents": "อ่านเอกสารทางเทคนิค\nและนำมาประยุกต์ใช้กับโปรเจกต์ได้",
+      "shifts": "ทำงานเป็นกะ\nหรือเวลาที่ไม่แน่นอนได้"
+    }
+  },
+  "experience": {
+    "title": "ประสบการณ์ทำงาน",
+    "tenureLabel": "อายุงานรวม",
+    "tenureValue": "{years, plural, =0 {} other {# ปี}} {months, plural, =0 {} other {# เดือน}}",
+    "present": "ปัจจุบัน",
+    "split": "Front-end {frontend}% · Back-end {backend}%",
+    "chartTitle": "จำนวนเดือนในแต่ละตำแหน่ง",
+    "chartMonths": "{count, plural, other {# เดือน}}",
+    "roles": {
+      "trienpont": {
+        "company": "Trienpont International",
+        "role": "Full Stack Developer",
+        "summary": "พัฒนาและส่งมอบแพลตฟอร์มจองที่พักระดับองค์กรและแพลตฟอร์มเช่าเครื่องจักรแบบครบวงจร ด้วย Next.js, GraphQL และ Headless CMS"
+      },
+      "inzoalvation": {
+        "company": "InZoalvation",
+        "role": "Front-end Developer",
+        "summary": "รับผิดชอบงานฝั่ง Front-end ของระบบ ERP ด้านการเงินภายในองค์กร และแพลตฟอร์มจัดการข้อมูลลูกค้าโซลาร์เซลล์ ทั้งแดชบอร์ด การส่งออกรายงาน และหน้าจอ RBAC"
+      },
+      "techswap": {
+        "company": "TechSwap",
+        "role": "Front-end 80% · Back-end 20%",
+        "summary": "ดูแลหน้าร้านของตลาดสินค้าไอทีมือสองในประเทศไทย ด้วย Next.js 16 App Router, next-intl, Playwright, SEO quality gates, Storybook และ CI/CD หลายสภาพแวดล้อม"
+      }
+    }
+  },
+  "apps": {
+    "title": "แอปพลิเคชันที่ใช้งานจริง",
+    "visit": "เยี่ยมชมเว็บไซต์",
+    "private": "ระบบภายใน",
+    "items": {
+      "compass": {
+        "name": "Compass Hospitality",
+        "kind": "แพลตฟอร์มจองที่พักระดับองค์กร",
+        "description": "แพลตฟอร์มจองโรงแรมในเครือ พร้อมการค้นหาหลายสาขา โปรโมชัน และหน้า Landing สำหรับการตลาด"
+      },
+      "dependable": {
+        "name": "Dependable Lift Rentals",
+        "kind": "แพลตฟอร์มเช่าเครื่องจักรอุตสาหกรรม",
+        "description": "แคตตาล็อกอุปกรณ์ ระบบขอใบเสนอราคา และขั้นตอนเช่าตามพื้นที่สำหรับบริษัทให้เช่าลิฟต์อุตสาหกรรม"
+      },
+      "erp": {
+        "name": "ระบบ ERP",
+        "kind": "เว็บไซต์ภายในด้านการเงิน",
+        "description": "ระบบปฏิบัติการด้านการเงินภายในองค์กร พร้อมการควบคุมสิทธิ์ตามบทบาท การส่งออกรายงาน และเวิร์กโฟลว์ที่ตรวจสอบได้"
+      },
+      "solar": {
+        "name": "Solar Cell Data Feed",
+        "kind": "เว็บไซต์ภายในองค์กร",
+        "description": "ระบบจัดการข้อมูลลูกค้าโซลาร์เซลล์ พร้อมฟีดข้อมูลสด กราฟ และรายงานสำหรับพิมพ์"
+      },
+      "techswap": {
+        "name": "TechSwap",
+        "kind": "ตลาดสินค้าไอทีมือสองในประเทศไทย",
+        "description": "มาร์เก็ตเพลสสองภาษา พร้อมระบบตรวจสภาพสินค้า ชำระเงินแบบพักเงิน การเชื่อมต่อ LINE และเกณฑ์คุณภาพ SEO"
+      }
+    }
+  },
+  "stack": {
+    "title": "เทคโนโลยีและเครื่องมือ",
+    "subtitle": "ทุกเครื่องมือในรายการนี้ถูกนำมาสาธิตจริงในหน้านี้",
+    "tabs": {
+      "cards": "หมวดหมู่",
+      "orbit": "วงโคจร 3 มิติ",
+      "radar": "เรดาร์"
+    },
+    "seeDemo": "ดูตัวอย่างจริง",
+    "radarSeries": "ระดับความเชี่ยวชาญ",
+    "orbitHint": "ลากเพื่อหมุน",
+    "categories": {
+      "languages": "ภาษาโปรแกรม",
+      "frameworks": "เฟรมเวิร์ก",
+      "stateData": "State และข้อมูล",
+      "stylingUi": "สไตล์และ UI",
+      "testing": "การทดสอบและคุณภาพ",
+      "devops": "CI/CD และ DevOps",
+      "backendAuth": "Backend และการยืนยันตัวตน",
+      "cms": "Headless CMS",
+      "integrations": "การเชื่อมต่อบริการ",
+      "seo": "SEO และการติดตาม",
+      "visualization": "การแสดงผลข้อมูล",
+      "reporting": "รายงาน",
+      "i18n": "ระบบหลายภาษา",
+      "accessibility": "การเข้าถึง",
+      "marketing": "UI ด้านการตลาด",
+      "maintainer": "คุณภาพโค้ด"
+    }
+  },
+  "softSkills": {
+    "title": "ทักษะด้านอารมณ์และสังคม",
+    "items": {
+      "empathy": "ความเห็นอกเห็นใจ",
+      "responsiveness": "ตอบสนองรวดเร็ว",
+      "activeListening": "รับฟังอย่างตั้งใจ",
+      "ethicalAwareness": "ตระหนักในจริยธรรม",
+      "adaptability": "ปรับตัวและยืดหยุ่น",
+      "collaboration": "ทำงานร่วมกันเป็นทีม",
+      "curiosity": "ใฝ่รู้และเรียนรู้อย่างต่อเนื่อง",
+      "languages": "สื่อสารภาษาไทยได้คล่องแคล่ว และภาษาอังกฤษได้ดี"
+    }
+  },
+  "education": {
+    "title": "การศึกษา",
+    "startYear": "ปีที่เริ่มศึกษา: {year}",
+    "endYear": "ปีที่จบการศึกษา: {year}",
+    "degreeLabel": "วุฒิการศึกษา: {degree}",
+    "facultyLabel": "สาขา: {faculty}",
+    "degree": "การจัดการการบิน — ปริญญาตรี",
+    "faculty": "การจัดการท่าอากาศยาน สถาบันการบินพลเรือน (CATC)"
+  },
+  "showcase": {
+    "title": "โชว์เคสสาธิตสด",
+    "subtitle": "ตัวอย่างการทำงานจริงของเทคโนโลยีที่ใช้ รันอยู่ในเบราว์เซอร์ตรงนี้เลย",
+    "cards": {
+      "shader": {
+        "title": "WebGL shader",
+        "description": "GLSL fragment shader ที่เขียนเอง เรนเดอร์ด้วย Three.js และ React Three Fiber"
+      },
+      "form": {
+        "title": "ฟอร์มติดต่อพร้อมตรวจสอบข้อมูล",
+        "description": "React Hook Form + Zod สำหรับตรวจสอบข้อมูล เมื่อกดส่งจะเปิดโปรแกรมอีเมลพร้อมข้อความที่กรอกไว้"
+      },
+      "github": {
+        "title": "กิจกรรมบน GitHub",
+        "description": "รีโพสิทอรีสาธารณะล่าสุด ดึงจาก GitHub REST API ด้วย TanStack Query"
+      },
+      "export": {
+        "title": "ส่งออกรายงาน",
+        "description": "สร้างเรซูเม่เป็น PDF ด้วย jsPDF หรือส่งออกตารางทักษะเป็นสเปรดชีตด้วย ExcelJS"
+      },
+      "qr": {
+        "title": "ติดต่อผ่าน QR",
+        "description": "สแกนเพื่อเปิด LINE หรือ GitHub — โฟลว์ QR แบบเดียวกับที่ใช้ในการเชื่อมต่อ LINE LIFF"
+      },
+      "map": {
+        "title": "ตำแหน่งที่ตั้ง",
+        "description": "แผนที่ Google Maps ของเขตที่พักอาศัยในกรุงเทพฯ"
+      },
+      "storybook": {
+        "title": "กล่องเครื่องมือ UI",
+        "description": "คอมโพเนนต์แอนิเมชันและ 3 มิติทุกชิ้นในหน้านี้ถูกจัดหมวดหมู่ไว้ใน Storybook",
+        "action": "เปิด Storybook"
+      },
+      "tour": {
+        "title": "นำชมเรซูเม่",
+        "description": "ทัวร์แนะนำเรซูเม่ที่ใช้คีย์บอร์ดได้ ขับเคลื่อนด้วย Driver.js",
+        "action": "เริ่มนำชม"
+      }
+    },
+    "form": {
+      "name": "ชื่อของคุณ",
+      "email": "อีเมลของคุณ",
+      "message": "ข้อความ",
+      "submit": "ส่งอีเมล",
+      "namePlaceholder": "สมชาย ใจดี",
+      "emailPlaceholder": "somchai@example.com",
+      "messagePlaceholder": "เล่าเกี่ยวกับโปรเจกต์ของคุณ…",
+      "errors": {
+        "nameMin": "กรุณากรอกอย่างน้อย 2 ตัวอักษร",
+        "emailInvalid": "กรุณากรอกอีเมลให้ถูกต้อง",
+        "messageMin": "กรุณาเขียนอย่างน้อย 10 ตัวอักษร"
+      },
+      "success": "โปรแกรมอีเมลของคุณควรเปิดขึ้นแล้ว"
+    },
+    "github": {
+      "loading": "กำลังโหลดรีโพสิทอรี…",
+      "error": "ไม่สามารถเชื่อมต่อ GitHub ได้ในขณะนี้",
+      "retry": "ลองอีกครั้ง",
+      "updated": "อัปเดตเมื่อ {date}",
+      "stars": "{count, plural, other {# ดาว}}",
+      "empty": "ยังไม่มีรีโพสิทอรีสาธารณะ"
+    },
+    "export": {
+      "pdf": "ส่งออก PDF (jsPDF)",
+      "xlsx": "ส่งออก XLSX (ExcelJS)",
+      "working": "กำลังสร้าง…",
+      "pdfTitle": "สรุปเรซูเม่",
+      "sheetName": "ตารางทักษะ",
+      "columns": {
+        "category": "หมวดหมู่",
+        "level": "ระดับ (1-5)",
+        "tools": "เครื่องมือ"
+      }
+    },
+    "qr": {
+      "line": "LINE",
+      "github": "GitHub"
+    },
+    "tour": {
+      "next": "ถัดไป",
+      "previous": "ย้อนกลับ",
+      "done": "เสร็จสิ้น",
+      "progress": "{current} จาก {total}",
+      "steps": {
+        "hero": {
+          "title": "สวัสดี!",
+          "description": "ช่องทางติดต่อและข้อมูลสำคัญอยู่ตรงนี้"
+        },
+        "about": {
+          "title": "เกี่ยวกับผม",
+          "description": "การทำงานร่วมกับผมเป็นอย่างไร"
+        },
+        "experience": {
+          "title": "ประสบการณ์ทำงาน",
+          "description": "ตำแหน่ง ช่วงเวลา และกราฟจำนวนเดือนในแต่ละตำแหน่ง"
+        },
+        "applications": {
+          "title": "แอปที่ใช้งานจริง",
+          "description": "แพลตฟอร์มที่เปิดใช้งานกับผู้ใช้จริง"
+        },
+        "stack": {
+          "title": "เทคโนโลยีที่ใช้",
+          "description": "สลับระหว่างการ์ดหมวดหมู่ วงโคจร 3 มิติ และกราฟเรดาร์"
+        },
+        "showcase": {
+          "title": "โชว์เคสสาธิตสด",
+          "description": "ตัวอย่างการทำงานจริงของเครื่องมือที่ใช้ทุกวัน"
+        }
+      }
+    }
+  },
+  "footer": {
+    "builtWith": "สร้างด้วย Next.js 16, React 19, Tailwind CSS v4, Three.js และ next-intl",
+    "source": "ดูซอร์สโค้ดบน GitHub"
+  }
+}

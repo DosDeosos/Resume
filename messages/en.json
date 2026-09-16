@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "title": "Vuttipat Srisumran — Full-Stack Developer",
+    "description": "Interactive resume of Vuttipat Srisumran, a Full-Stack Developer in Bangkok specialising in Next.js, React, TypeScript, Three.js and multi-language web platforms."
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "languageMenu": "Language",
+    "sectionNav": "Sections",
+    "openLink": "Opens in a new tab",
+    "decorativeScene": "Decorative 3D scene",
+    "profilePhoto": "Portrait of Vuttipat Srisumran"
+  },
+  "nav": {
+    "hero": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "applications": "Apps",
+    "stack": "Stack",
+    "softSkills": "Soft skills",
+    "education": "Education",
+    "showcase": "Showcase",
+    "locales": { "en": "EN", "th": "TH" },
+    "storybook": "Storybook",
+    "tour": "Take a tour",
+    "downloadPdf": "Download PDF"
+  },
+  "hero": {
+    "greeting": "Greeting!",
+    "lines": {
+      "name": "I'm Vuttipat Srisumran",
+      "role": "A Full-Stack Developer"
+    },
+    "tagline": "A Full-Stack Developer with passion!,\nI strive to be a better version of myself.\nAviation turns Developer!",
+    "contacts": {
+      "email": "Email",
+      "phone": "Phone",
+      "line": "LINE",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "address": "Address"
+    },
+    "addressValue": "Lumpini Townville, Permsin-Watcharapol, O-Ngoen, Sai Mai District, Bangkok 10220"
+  },
+  "about": {
+    "title": "About Me",
+    "items": {
+      "anywhere": "Able to work anywhere, anytime.",
+      "passion": "A lot of passion towards coding, mainly modifications of my own projects.",
+      "selfLearning": "Self-learning and the ability to learn quickly from the surrounding environment.",
+      "openMinded": "Open-minded\nand able to work with everyone.",
+      "documents": "Ability to read documents\nand apply them to projects.",
+      "shifts": "Ability to work in shifts\nor disordered time."
+    }
+  },
+  "experience": {
+    "title": "Work Experience",
+    "tenureLabel": "Total professional tenure",
+    "tenureValue": "{years, plural, =0 {} one {# year} other {# years}}, {months, plural, =0 {} one {# month} other {# months}}",
+    "present": "Present",
+    "split": "Front-end {frontend}% · Back-end {backend}%",
+    "chartTitle": "Months per role",
+    "chartMonths": "{count, plural, one {# month} other {# months}}",
+    "roles": {
+      "trienpont": {
+        "company": "Trienpont International",
+        "role": "Full Stack Developer",
+        "summary": "Built and shipped enterprise booking and equipment-rental platforms end to end with Next.js, GraphQL and headless CMS integrations."
+      },
+      "inzoalvation": {
+        "company": "InZoalvation",
+        "role": "Front-end Developer",
+        "summary": "Owned front-end delivery for an in-house financial ERP and a solar-cell customer data platform, including dashboards, reporting exports and RBAC screens."
+      },
+      "techswap": {
+        "company": "TechSwap",
+        "role": "Front-end 80% · Back-end 20%",
+        "summary": "Leading the storefront of Thailand's second-hand tech marketplace: Next.js 16 App Router, next-intl, Playwright, SEO quality gates, Storybook and multi-environment CI/CD."
+      }
+    }
+  },
+  "apps": {
+    "title": "Production Applications",
+    "visit": "Visit site",
+    "private": "Private",
+    "items": {
+      "compass": {
+        "name": "Compass Hospitality",
+        "kind": "Enterprise Booking Platform",
+        "description": "Hotel group booking platform with multi-property search, promotions and marketing-driven landing pages."
+      },
+      "dependable": {
+        "name": "Dependable Lift Rentals",
+        "kind": "Industrial Equipment Rental Platform",
+        "description": "Equipment catalogue, quote requests and location-aware rental flows for an industrial lift company."
+      },
+      "erp": {
+        "name": "ERP System",
+        "kind": "Financial private website",
+        "description": "Internal finance operations system with role-based access control, reporting exports and audit-friendly workflows."
+      },
+      "solar": {
+        "name": "Solar Cell Data Feed",
+        "kind": "In-house private website",
+        "description": "Solar-cell customer data management with live feeds, charts and printable reports."
+      },
+      "techswap": {
+        "name": "TechSwap",
+        "kind": "Second-hand tech marketplace in Thailand",
+        "description": "Bilingual marketplace with inspections, escrow-style checkout, LINE integrations and search-engine quality gates."
+      }
+    }
+  },
+  "stack": {
+    "title": "Technical Stack & Tools",
+    "subtitle": "Every tool listed here is demonstrated somewhere on this page.",
+    "tabs": {
+      "cards": "Categories",
+      "orbit": "3D orbit",
+      "radar": "Radar"
+    },
+    "seeDemo": "See it live",
+    "radarSeries": "Depth of experience",
+    "orbitHint": "Drag to rotate",
+    "categories": {
+      "languages": "Languages",
+      "frameworks": "Frameworks",
+      "stateData": "State & Data",
+      "stylingUi": "Styling & UI",
+      "testing": "Testing & Quality",
+      "devops": "CI/CD & DevOps",
+      "backendAuth": "Backend & Auth",
+      "cms": "Headless CMS",
+      "integrations": "Integrations",
+      "seo": "SEO & Observability",
+      "visualization": "Visualization",
+      "reporting": "Reporting",
+      "i18n": "Internationalization",
+      "accessibility": "Accessibility",
+      "marketing": "Marketing UI",
+      "maintainer": "Code Quality"
+    }
+  },
+  "softSkills": {
+    "title": "Soft Skills",
+    "items": {
+      "empathy": "Empathy",
+      "responsiveness": "Responsiveness",
+      "activeListening": "Active listening",
+      "ethicalAwareness": "Ethical awareness",
+      "adaptability": "Adaptability and flexibility",
+      "collaboration": "Collaboration and teamwork",
+      "curiosity": "Curiosity and continuous learning",
+      "languages": "Ability to communicate fluently in Thai and proficiently in English"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "startYear": "Starting year: {year}",
+    "endYear": "Graduation year: {year}",
+    "degreeLabel": "Degree: {degree}",
+    "facultyLabel": "Faculty: {faculty}",
+    "degree": "Aviation Management — Bachelor's Degree",
+    "faculty": "Airport Management at Civil Aviation Training Center (CATC)"
+  },
+  "showcase": {
+    "title": "Live Showcase",
+    "subtitle": "Small working demos of the stack, running right here in the browser.",
+    "cards": {
+      "shader": {
+        "title": "WebGL shader",
+        "description": "A custom GLSL fragment shader rendered with Three.js and React Three Fiber."
+      },
+      "form": {
+        "title": "Validated contact form",
+        "description": "React Hook Form + Zod schema validation. Sending opens your mail client with the message pre-filled."
+      },
+      "github": {
+        "title": "GitHub activity",
+        "description": "Latest public repositories fetched from the GitHub REST API with TanStack Query."
+      },
+      "export": {
+        "title": "Reporting exports",
+        "description": "Generate this resume as a PDF with jsPDF or the skills matrix as a spreadsheet with ExcelJS."
+      },
+      "qr": {
+        "title": "QR contact",
+        "description": "Scan to open LINE or GitHub — the same QR flow used for LINE LIFF integrations."
+      },
+      "map": {
+        "title": "Location",
+        "description": "Google Maps embed of my home district in Bangkok."
+      },
+      "storybook": {
+        "title": "UI toolbox",
+        "description": "Every animated and 3D component on this page is catalogued in Storybook.",
+        "action": "Open Storybook"
+      },
+      "tour": {
+        "title": "Guided tour",
+        "description": "Keyboard-accessible walkthrough of the resume powered by Driver.js.",
+        "action": "Start tour"
+      }
+    },
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Message",
+      "submit": "Send email",
+      "namePlaceholder": "Jane Doe",
+      "emailPlaceholder": "jane@example.com",
+      "messagePlaceholder": "Tell me about your project…",
+      "errors": {
+        "nameMin": "Please enter at least 2 characters.",
+        "emailInvalid": "Please enter a valid email address.",
+        "messageMin": "Please write at least 10 characters."
+      },
+      "success": "Your mail client should open now."
+    },
+    "github": {
+      "loading": "Loading repositories…",
+      "error": "GitHub is unreachable right now.",
+      "retry": "Retry",
+      "updated": "Updated {date}",
+      "stars": "{count, plural, one {# star} other {# stars}}",
+      "empty": "No public repositories yet."
+    },
+    "export": {
+      "pdf": "Export PDF (jsPDF)",
+      "xlsx": "Export XLSX (ExcelJS)",
+      "working": "Generating…",
+      "pdfTitle": "Resume summary",
+      "sheetName": "Skills matrix",
+      "columns": {
+        "category": "Category",
+        "level": "Level (1-5)",
+        "tools": "Tools"
+      }
+    },
+    "qr": {
+      "line": "LINE",
+      "github": "GitHub"
+    },
+    "tour": {
+      "next": "Next",
+      "previous": "Back",
+      "done": "Done",
+      "progress": "{current} of {total}",
+      "steps": {
+        "hero": {
+          "title": "Hello!",
+          "description": "Contact links and the essentials are up here."
+        },
+        "about": {
+          "title": "About me",
+          "description": "What it is like to work with me."
+        },
+        "experience": {
+          "title": "Work experience",
+          "description": "Roles, dates and a chart of months per role."
+        },
+        "applications": {
+          "title": "Production apps",
+          "description": "Platforms that are live with real users."
+        },
+        "stack": {
+          "title": "Technical stack",
+          "description": "Switch between category cards, a 3D orbit and a radar chart."
+        },
+        "showcase": {
+          "title": "Live showcase",
+          "description": "Working demos of the tools I use every day."
+        }
+      }
+    }
+  },
+  "footer": {
+    "builtWith": "Built with Next.js 16, React 19, Tailwind CSS v4, Three.js and next-intl.",
+    "source": "View source on GitHub"
+  }
+}

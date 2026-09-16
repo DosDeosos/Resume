@@ -1,0 +1,7 @@
+.next
+node_modules
+storybook-static
+public/storybook
+pnpm-lock.yaml
+public/lottie
+e2e/.probe
