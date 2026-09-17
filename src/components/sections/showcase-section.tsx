@@ -14,7 +14,6 @@ import type { ReactNode } from "react";
 type DemoCardProps = Readonly<{
   id: string;
   title: string;
-  description: string;
   children: ReactNode;
   tone?: "cyan" | "green" | "purple" | "pink";
   className?: string;
@@ -23,7 +22,6 @@ type DemoCardProps = Readonly<{
 function DemoCard({
   id,
   title,
-  description,
   children,
   tone = "cyan",
   className,
@@ -39,10 +37,7 @@ function DemoCard({
         glare={false}
       >
         <div id={`showcase-${id}`} className="scroll-mt-28">
-          <h3 className="text-lg font-bold text-blue-900">{title}</h3>
-          <p className="mb-3 text-sm font-normal text-cyan-950/80">
-            {description}
-          </p>
+          <h3 className="mb-3 text-lg font-bold text-blue-900">{title}</h3>
         </div>
         <div className="grow">{children}</div>
       </TiltCard>
@@ -52,40 +47,21 @@ function DemoCard({
 
 export function ShowcaseSection() {
   const t = useTranslations("showcase");
+  const tNav = useTranslations("nav");
 
   return (
-    <Section id="showcase" title={t("title")} subtitle={t("subtitle")}>
+    <Section id="showcase" label={tNav("showcase")}>
       <Stagger className="grid grid-cols-1 gap-8 md:grid-cols-2" stagger={0.07}>
-        <DemoCard
-          id="github"
-          tone="cyan"
-          title={t("cards.github.title")}
-          description={t("cards.github.description")}
-        >
+        <DemoCard id="github" tone="cyan" title={t("cards.github.title")}>
           <GithubActivity />
         </DemoCard>
-        <DemoCard
-          id="export"
-          tone="pink"
-          title={t("cards.export.title")}
-          description={t("cards.export.description")}
-        >
+        <DemoCard id="export" tone="pink" title={t("cards.export.title")}>
           <ExportButtons className="h-full items-center" />
         </DemoCard>
-        <DemoCard
-          id="qr"
-          tone="green"
-          title={t("cards.qr.title")}
-          description={t("cards.qr.description")}
-        >
+        <DemoCard id="qr" tone="green" title={t("cards.qr.title")}>
           <ContactQr />
         </DemoCard>
-        <DemoCard
-          id="map"
-          tone="purple"
-          title={t("cards.map.title")}
-          description={t("cards.map.description")}
-        >
+        <DemoCard id="map" tone="purple" title={t("cards.map.title")}>
           <LocationMap title={t("cards.map.title")} />
         </DemoCard>
       </Stagger>

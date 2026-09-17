@@ -17,7 +17,7 @@ export function ContactQr({ className }: Readonly<{ className?: string }>) {
   return (
     <div
       className={cn(
-        "flex flex-wrap items-center justify-center gap-6",
+        "flex flex-wrap items-center justify-center gap-x-16 gap-y-10 py-2 sm:gap-x-24",
         className,
       )}
     >
@@ -32,7 +32,7 @@ export function ContactQr({ className }: Readonly<{ className?: string }>) {
           viewport={{ once: true }}
           transition={{ delay: index * 0.15, duration: 0.6, ease: "easeOut" }}
           whileHover={{ scale: 1.05 }}
-          className="flex flex-col items-center gap-2 rounded-2xl bg-white p-3 shadow-md ring-1 ring-blue-900/10"
+          className="flex flex-col items-center gap-2 rounded-2xl bg-white p-4 shadow-md ring-1 ring-blue-900/10"
         >
           <QRCodeSVG
             value={target.href}
@@ -40,7 +40,7 @@ export function ContactQr({ className }: Readonly<{ className?: string }>) {
             level="M"
             fgColor={target.color}
             bgColor="#ffffff"
-            marginSize={1}
+            marginSize={2}
             title={t(target.id)}
           />
           <span className="text-xs font-bold text-blue-900">

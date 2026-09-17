@@ -164,24 +164,18 @@
     "faculty": "Airport Management at Civil Aviation Training Center (CATC)"
   },
   "showcase": {
-    "title": "Live Showcase",
-    "subtitle": "Small working demos of the stack, running right here in the browser.",
     "cards": {
       "github": {
-        "title": "GitHub activity",
-        "description": "Latest public repositories fetched from the GitHub REST API with TanStack Query."
+        "title": "GitHub activity"
       },
       "export": {
-        "title": "Reporting exports",
-        "description": "Generate this resume as a PDF with jsPDF or the skills matrix as a spreadsheet with ExcelJS."
+        "title": "Reporting exports"
       },
       "qr": {
-        "title": "QR contact",
-        "description": "Scan to open LINE or GitHub — the same QR flow used for LINE LIFF integrations."
+        "title": "QR contact"
       },
       "map": {
-        "title": "Location",
-        "description": "Google Maps embed of my home district in Bangkok."
+        "title": "Location"
       }
     },
     "github": {
