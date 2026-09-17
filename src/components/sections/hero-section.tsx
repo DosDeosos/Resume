@@ -49,6 +49,30 @@ function ContactBubble({
   );
 }
 
+type ContactPillProps = Readonly<{
+  href: string;
+  children: ReactNode;
+  className?: string;
+  title?: string;
+}>;
+
+function ContactPill({ href, children, className, title }: ContactPillProps) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noreferrer"
+      title={title}
+      className={cn(
+        "inline-flex h-9 items-center gap-2 rounded-full bg-white/80 px-4 text-sm font-semibold text-blue-900 ring-1 ring-blue-900/15 transition-[transform,background-color] hover:-translate-y-0.5 hover:bg-white focus-visible:ring-2 focus-visible:ring-blue-900/60 focus-visible:outline-none",
+        className,
+      )}
+    >
+      {children}
+    </a>
+  );
+}
+
 export function HeroSection() {
   const t = useTranslations("hero");
   const tA11y = useTranslations("a11y");
@@ -97,22 +121,19 @@ export function HeroSection() {
             >
               <LottieIcon src={lottie.github} className={bubbleIcon} />
             </ContactBubble>
-            <ContactBubble
-              href={profile.linkedinHref}
-              label={t("contacts.linkedin")}
-              external
-              className="size-16.5 text-[#0a66c2] lg:size-19"
-            >
-              <LinkedinIcon className="size-7 lg:size-8" />
-            </ContactBubble>
-            <ContactBubble
+          </div>
+          <div className="mt-4 flex flex-wrap items-center gap-2">
+            <ContactPill href={profile.linkedinHref} className="text-[#0a66c2]">
+              <LinkedinIcon className="size-4" />
+              {t("contacts.linkedin")}
+            </ContactPill>
+            <ContactPill
               href={profile.mapEmbedHref.replace("&output=embed", "")}
-              label={`${t("contacts.address")}: ${t("addressValue")}`}
-              external
-              className="size-16.5 text-blue-900 lg:size-19"
+              title={t("addressValue")}
             >
-              <MapPin className="size-7 lg:size-8" aria-hidden />
-            </ContactBubble>
+              <MapPin className="size-4" aria-hidden />
+              {t("addressShort")}
+            </ContactPill>
           </div>
         </div>
       </Reveal>

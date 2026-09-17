@@ -42,7 +42,8 @@
       "linkedin": "LinkedIn",
       "address": "Address"
     },
-    "addressValue": "Lumpini Townville, Permsin-Watcharapol, O-Ngoen, Sai Mai District, Bangkok 10220"
+    "addressValue": "Lumpini Townville, Permsin-Watcharapol, O-Ngoen, Sai Mai District, Bangkok 10220",
+    "addressShort": "Sai Mai, Bangkok"
   },
   "about": {
     "title": "About Me",
