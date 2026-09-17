@@ -1,7 +1,13 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { Canvas, type CanvasProps } from "@react-three/fiber";
+import {
+  Canvas,
+  events as createPointerEvents,
+  type CanvasProps,
+  type EventManager,
+  type RootStore,
+} from "@react-three/fiber";
 import { useInView, useReducedMotion } from "framer-motion";
 import { useRef, type ReactNode } from "react";
 
@@ -13,6 +19,16 @@ type ThreeCanvasProps = Readonly<{
   orthographic?: boolean;
   alwaysAnimate?: boolean;
 }>;
+
+function detachSafeEvents(store: RootStore): EventManager<HTMLElement> {
+  const manager = createPointerEvents(store);
+  return {
+    ...manager,
+    connect: (target: HTMLElement | null) => {
+      if (target) manager.connect?.(target);
+    },
+  };
+}
 
 export function ThreeCanvas({
   children,
@@ -40,6 +56,7 @@ export function ThreeCanvas({
         camera={camera}
         orthographic={orthographic}
         frameloop={animate ? "always" : "demand"}
+        events={detachSafeEvents}
         className="size-full"
       >
         {children}
