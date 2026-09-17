@@ -28,7 +28,7 @@ export function StackSection() {
   const tA11y = useTranslations("a11y");
 
   return (
-    <Section id="stack" title={t("title")} subtitle={t("subtitle")}>
+    <Section id="stack" title={t("title")}>
       <Reveal className="flex justify-center">
         <LottieIcon src={lottie.computer} className="size-20 md:size-30" />
       </Reveal>
