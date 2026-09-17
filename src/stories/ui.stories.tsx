@@ -1,4 +1,3 @@
-import { StackRadarChart } from "@/components/charts/stack-radar-chart";
 import { TenureChart } from "@/components/charts/tenure-chart";
 import { LocaleSwitcher } from "@/components/i18n/locale-switcher";
 import { StackCategoryCard } from "@/components/sections/stack-category-card";
@@ -73,14 +72,6 @@ export const StackCard: StoryObj = {
   render: () => (
     <div className="w-80">
       <StackCategoryCard category={stackCategories[3]} />
-    </div>
-  ),
-};
-
-export const Radar: StoryObj = {
-  render: () => (
-    <div className="w-180">
-      <StackRadarChart />
     </div>
   ),
 };

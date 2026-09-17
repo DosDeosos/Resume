@@ -34,12 +34,10 @@ test("locale switcher moves to thai and back", async ({ page }) => {
   await expect(page).toHaveURL(/\/en$/);
 });
 
-test("stack tabs switch between cards, orbit and radar", async ({ page }) => {
+test("stack tabs switch between cards and orbit", async ({ page }) => {
   await page.goto("/en");
   await page.locator("section#stack").scrollIntoViewIfNeeded();
   await page.getByRole("tab", { name: "3D orbit" }).click();
-  await expect(page.locator("section#stack canvas")).toBeVisible();
-  await page.getByRole("tab", { name: "Radar" }).click();
   await expect(page.locator("section#stack canvas")).toBeVisible();
 });
 

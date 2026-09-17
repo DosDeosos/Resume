@@ -74,15 +74,7 @@ export function StackCategoryCard({ category }: StackCategoryCardProps) {
           </li>
         ))}
       </ul>
-      <div className="mt-3 flex items-center justify-between">
-        <div className="flex gap-1" aria-hidden>
-          {Array.from({ length: 5 }, (_, index) => (
-            <span
-              key={index}
-              className={`h-1.5 w-4 rounded-full ${index < category.level ? "bg-blue-900" : "bg-blue-900/15"}`}
-            />
-          ))}
-        </div>
+      <div className="mt-3 flex items-center justify-end">
         {category.demo ? (
           <a
             href={`#showcase-${category.demo}`}

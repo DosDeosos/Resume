@@ -24,7 +24,6 @@
       "en": "EN",
       "th": "TH"
     },
-    "storybook": "Storybook",
     "tour": "Take a tour",
     "downloadPdf": "Download PDF"
   },
@@ -119,11 +118,9 @@
     "subtitle": "Every tool listed here is demonstrated somewhere on this page.",
     "tabs": {
       "cards": "Categories",
-      "orbit": "3D orbit",
-      "radar": "Radar"
+      "orbit": "3D orbit"
     },
     "seeDemo": "See it live",
-    "radarSeries": "Depth of experience",
     "orbitHint": "Drag to rotate",
     "categories": {
       "languages": "Languages",
@@ -203,7 +200,6 @@
       "sheetName": "Skills matrix",
       "columns": {
         "category": "Category",
-        "level": "Level (1-5)",
         "tools": "Tools"
       }
     },

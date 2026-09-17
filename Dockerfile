@@ -16,14 +16,12 @@ RUN pnpm install --frozen-lockfile
 FROM base AS builder
 
 ARG NEXT_PUBLIC_SITE_ORIGIN=http://localhost:3000
-ARG NEXT_PUBLIC_STORYBOOK_URL=/storybook/index.html
 
 ENV NEXT_PUBLIC_SITE_ORIGIN=$NEXT_PUBLIC_SITE_ORIGIN
-ENV NEXT_PUBLIC_STORYBOOK_URL=$NEXT_PUBLIC_STORYBOOK_URL
 
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-RUN pnpm build && pnpm storybook:embed
+RUN pnpm build
 
 FROM public.ecr.aws/docker/library/node:24-alpine AS runner
 

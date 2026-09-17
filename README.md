@@ -1,6 +1,6 @@
 # Vuttipat Srisumran — Interactive Resume
 
-Bilingual (EN/TH) resume built with Next.js 16 (App Router, webpack), React 19, TypeScript, Tailwind CSS v4 and next-intl. Every tool on the resume is demonstrated live on the page: Three.js / React Three Fiber scenes, a GLSL shader, ECharts and Recharts, TanStack Query, jsPDF / ExcelJS exports, QR codes, a Driver.js tour, HeroUI + Radix components, and a Storybook toolbox.
+Bilingual (EN/TH) resume built with Next.js 16 (App Router, webpack), React 19, TypeScript, Tailwind CSS v4 and next-intl. Every tool on the resume is demonstrated live on the page: Three.js / React Three Fiber scenes, a GLSL shader, Recharts, TanStack Query, jsPDF / ExcelJS exports, QR codes, a Driver.js tour, HeroUI + Radix components, and a Storybook toolbox.
 
 ## Requirements
 
@@ -23,7 +23,6 @@ Bilingual (EN/TH) resume built with Next.js 16 (App Router, webpack), React 19, 
 | `pnpm check`              | Everything above in order, then build and budget. CI runs this.                     |
 | `pnpm e2e:smoke`          | Playwright smoke tests against `pnpm start` (or `E2E_BASE_URL`).                    |
 | `pnpm storybook`          | Storybook on port 6006.                                                             |
-| `pnpm storybook:embed`    | Builds Storybook into `public/storybook` so the site can link to it.                |
 
 ## Structure
 
@@ -46,7 +45,6 @@ e2e/                 Playwright smoke tests
 Copy `.env.example` to `.env.local` and set:
 
 - `NEXT_PUBLIC_SITE_ORIGIN` — canonical origin for metadata and sitemap
-- `NEXT_PUBLIC_STORYBOOK_URL` — where Storybook is hosted (defaults to `/storybook/index.html`)
 
 ## Docker
 

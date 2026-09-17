@@ -13,7 +13,6 @@ export type SummaryApp = {
 
 export type SummaryCategory = {
   label: string;
-  level: number;
   items: readonly string[];
 };
 
@@ -34,7 +33,7 @@ export type ResumeSummary = {
   categories: readonly SummaryCategory[];
   softSkills: readonly string[];
   education: readonly string[];
-  columns: { category: string; level: string; tools: string };
+  columns: { category: string; tools: string };
   sheetName: string;
   description: string;
 };

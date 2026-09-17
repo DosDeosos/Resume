@@ -98,19 +98,16 @@ export type ApplicationId = (typeof applications)[number]["id"];
 export const stackCategories = [
   {
     id: "languages",
-    level: 5,
     demo: null,
     items: ["JavaScript", "TypeScript", "HTML5", "CSS3 / SASS"],
   },
   {
     id: "frameworks",
-    level: 5,
     demo: null,
     items: ["Next.js (App Router, RSC)", "React", "Vite", "React Router"],
   },
   {
     id: "stateData",
-    level: 4,
     demo: "github",
     items: [
       "TanStack Query",
@@ -124,7 +121,6 @@ export const stackCategories = [
   },
   {
     id: "stylingUi",
-    level: 5,
     demo: null,
     items: [
       "Tailwind CSS v4",
@@ -138,7 +134,6 @@ export const stackCategories = [
   },
   {
     id: "testing",
-    level: 4,
     demo: null,
     items: [
       "Playwright (E2E)",
@@ -150,13 +145,11 @@ export const stackCategories = [
   },
   {
     id: "devops",
-    level: 3,
     demo: null,
     items: ["Docker", "Vercel", "Multi-env promotion (dev / uat / prod)"],
   },
   {
     id: "backendAuth",
-    level: 3,
     demo: null,
     items: [
       "Supabase",
@@ -167,25 +160,21 @@ export const stackCategories = [
   },
   {
     id: "cms",
-    level: 3,
     demo: null,
     items: ["Strapi", "Payload CMS", "Headless WordPress"],
   },
   {
     id: "integrations",
-    level: 4,
     demo: "qr",
     items: ["Google Maps", "LINE OA / LINE LIFF", "QR scanning"],
   },
   {
     id: "seo",
-    level: 4,
     demo: null,
     items: ["Dynamic sitemaps", "SEO quality gates"],
   },
   {
     id: "visualization",
-    level: 4,
     demo: null,
     items: [
       "ECharts",
@@ -197,31 +186,26 @@ export const stackCategories = [
   },
   {
     id: "reporting",
-    level: 3,
     demo: "export",
     items: ["Puppeteer", "ExcelJS", "jsPDF", "html2pdf"],
   },
   {
     id: "i18n",
-    level: 4,
     demo: null,
     items: ["next-intl multi-language platform"],
   },
   {
     id: "accessibility",
-    level: 4,
     demo: null,
     items: ["Keyboard A11y", "Driver.js"],
   },
   {
     id: "marketing",
-    level: 3,
     demo: null,
     items: ["Marketing-based UI integration"],
   },
   {
     id: "maintainer",
-    level: 4,
     demo: null,
     items: ["Code maintainer / auditor"],
   },

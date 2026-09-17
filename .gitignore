@@ -10,7 +10,6 @@
 /build
 
 /storybook-static
-/public/storybook
 
 .DS_Store
 *.pem

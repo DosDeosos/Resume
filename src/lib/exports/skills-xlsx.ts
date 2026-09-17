@@ -15,7 +15,6 @@ export async function exportSkillsXlsx(summary: ResumeSummary) {
 
   sheet.columns = [
     { header: summary.columns.category, key: "category", width: 28 },
-    { header: summary.columns.level, key: "level", width: 14 },
     { header: summary.columns.tools, key: "tools", width: 80 },
   ];
 
@@ -32,7 +31,6 @@ export async function exportSkillsXlsx(summary: ResumeSummary) {
   summary.categories.forEach((category, index) => {
     const row = sheet.addRow({
       category: category.label,
-      level: category.level,
       tools: category.items.join(", "),
     });
     row.alignment = { vertical: "top", wrapText: true };
@@ -45,8 +43,7 @@ export async function exportSkillsXlsx(summary: ResumeSummary) {
     }
   });
 
-  sheet.getColumn("level").alignment = { horizontal: "center" };
-  sheet.autoFilter = { from: "A1", to: `C${summary.categories.length + 1}` };
+  sheet.autoFilter = { from: "A1", to: `B${summary.categories.length + 1}` };
 
   const buffer = await workbook.xlsx.writeBuffer();
   const blob = new Blob([buffer], {

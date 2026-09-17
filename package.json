@@ -21,8 +21,7 @@
     "check": "pnpm test:i18n && pnpm guards:test && pnpm lint && pnpm typecheck && pnpm build && pnpm performance:budget",
     "ci": "pnpm run check",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "storybook:embed": "storybook build -o public/storybook"
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@heroui/react": "^3.2.5",
@@ -35,8 +34,6 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "driver.js": "^1.8.0",
-    "echarts": "^6.1.0",
-    "echarts-for-react": "^3.0.6",
     "exceljs": "^4.4.0",
     "framer-motion": "^13.3.0",
     "jspdf": "^4.2.1",

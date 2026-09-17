@@ -62,7 +62,6 @@ export function useResumeSummary(): ResumeSummary {
       })),
       categories: stackCategories.map((category) => ({
         label: tStack(`categories.${category.id}`),
-        level: category.level,
         items: category.items,
       })),
       softSkills: softSkillIds.map((id) => tSoft(`items.${id}`)),
@@ -73,7 +72,6 @@ export function useResumeSummary(): ResumeSummary {
       ],
       columns: {
         category: tExport("columns.category"),
-        level: tExport("columns.level"),
         tools: tExport("columns.tools"),
       },
       sheetName: tExport("sheetName"),
