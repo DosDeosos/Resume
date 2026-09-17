@@ -6,6 +6,7 @@ import { Reveal, Stagger, StaggerItem } from "@/components/motion/reveal";
 import { TiltCard } from "@/components/motion/tilt-card";
 import { experience } from "@/data/resume";
 import { splitMonths, totalTenureMonths } from "@/lib/tenure";
+import { cn } from "@/lib/utils";
 import { Chip } from "@heroui/react";
 import { motion, useReducedMotion } from "framer-motion";
 import { Briefcase } from "lucide-react";
@@ -85,7 +86,12 @@ export function ExperienceSection() {
               <span
                 aria-hidden
                 style={{ backgroundColor: role.color }}
-                className={`absolute top-6 left-1.75 flex size-5 items-center justify-center rounded-full ring-4 ring-white md:left-auto ${index % 2 === 0 ? "md:-right-2.5" : "md:-left-2.5"}`}
+                className={cn(
+                  "absolute top-6 left-1.75 z-10 flex size-5 items-center justify-center rounded-full ring-4 ring-white",
+                  index % 2 === 0
+                    ? "md:-right-2.5 md:left-auto"
+                    : "md:-left-2.5",
+                )}
               >
                 <Briefcase className="size-3 text-blue-900" />
               </span>
