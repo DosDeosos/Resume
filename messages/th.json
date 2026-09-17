@@ -235,7 +235,6 @@
     }
   },
   "footer": {
-    "builtWith": "สร้างด้วย Next.js 16, React 19, Tailwind CSS v4, Three.js และ next-intl",
     "source": "ดูซอร์สโค้ดบน GitHub"
   }
 }
