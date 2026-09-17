@@ -125,7 +125,7 @@ export const stackCategories = [
   {
     id: "stylingUi",
     level: 5,
-    demo: "storybook",
+    demo: null,
     items: [
       "Tailwind CSS v4",
       "Shadcn/UI",
@@ -186,7 +186,7 @@ export const stackCategories = [
   {
     id: "visualization",
     level: 4,
-    demo: "shader",
+    demo: null,
     items: [
       "ECharts",
       "Recharts",
@@ -210,7 +210,7 @@ export const stackCategories = [
   {
     id: "accessibility",
     level: 4,
-    demo: "tour",
+    demo: null,
     items: ["Keyboard A11y", "Driver.js"],
   },
   {

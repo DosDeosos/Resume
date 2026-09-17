@@ -20,7 +20,10 @@
     "softSkills": "Soft skills",
     "education": "Education",
     "showcase": "Showcase",
-    "locales": { "en": "EN", "th": "TH" },
+    "locales": {
+      "en": "EN",
+      "th": "TH"
+    },
     "storybook": "Storybook",
     "tour": "Take a tour",
     "downloadPdf": "Download PDF"
@@ -167,14 +170,6 @@
     "title": "Live Showcase",
     "subtitle": "Small working demos of the stack, running right here in the browser.",
     "cards": {
-      "shader": {
-        "title": "WebGL shader",
-        "description": "A custom GLSL fragment shader rendered with Three.js and React Three Fiber."
-      },
-      "form": {
-        "title": "Validated contact form",
-        "description": "React Hook Form + Zod schema validation. Sending opens your mail client with the message pre-filled."
-      },
       "github": {
         "title": "GitHub activity",
         "description": "Latest public repositories fetched from the GitHub REST API with TanStack Query."
@@ -190,32 +185,7 @@
       "map": {
         "title": "Location",
         "description": "Google Maps embed of my home district in Bangkok."
-      },
-      "storybook": {
-        "title": "UI toolbox",
-        "description": "Every animated and 3D component on this page is catalogued in Storybook.",
-        "action": "Open Storybook"
-      },
-      "tour": {
-        "title": "Guided tour",
-        "description": "Keyboard-accessible walkthrough of the resume powered by Driver.js.",
-        "action": "Start tour"
       }
-    },
-    "form": {
-      "name": "Your name",
-      "email": "Your email",
-      "message": "Message",
-      "submit": "Send email",
-      "namePlaceholder": "Jane Doe",
-      "emailPlaceholder": "jane@example.com",
-      "messagePlaceholder": "Tell me about your project…",
-      "errors": {
-        "nameMin": "Please enter at least 2 characters.",
-        "emailInvalid": "Please enter a valid email address.",
-        "messageMin": "Please write at least 10 characters."
-      },
-      "success": "Your mail client should open now."
     },
     "github": {
       "loading": "Loading repositories…",

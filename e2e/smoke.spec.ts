@@ -43,20 +43,10 @@ test("stack tabs switch between cards, orbit and radar", async ({ page }) => {
   await expect(page.locator("section#stack canvas")).toBeVisible();
 });
 
-test("guided tour opens from the showcase", async ({ page }) => {
+test("guided tour opens from the header", async ({ page }) => {
   await page.goto("/en");
-  await page.locator("section#showcase").scrollIntoViewIfNeeded();
-  await page.getByRole("button", { name: "Start tour" }).click();
+  await page.getByRole("button", { name: "Take a tour" }).click();
   await expect(page.locator(".driver-popover")).toBeVisible();
   await page.keyboard.press("Escape");
   await expect(page.locator(".driver-popover")).toBeHidden();
-});
-
-test("contact form validates before sending", async ({ page }) => {
-  await page.goto("/en");
-  await page.locator("section#showcase").scrollIntoViewIfNeeded();
-  await page.getByRole("button", { name: "Send email" }).click();
-  await expect(
-    page.getByText("Please enter at least 2 characters."),
-  ).toBeVisible();
 });

@@ -2,7 +2,6 @@ import { StackRadarChart } from "@/components/charts/stack-radar-chart";
 import { TenureChart } from "@/components/charts/tenure-chart";
 import { LocaleSwitcher } from "@/components/i18n/locale-switcher";
 import { StackCategoryCard } from "@/components/sections/stack-category-card";
-import { ContactForm } from "@/components/showcase/contact-form";
 import { ContactQr } from "@/components/showcase/contact-qr";
 import { ExportButtons } from "@/components/showcase/export-buttons";
 import { Button } from "@/components/ui/button";
@@ -90,14 +89,6 @@ export const Tenure: StoryObj = {
   render: () => (
     <div className="w-160">
       <TenureChart />
-    </div>
-  ),
-};
-
-export const Form: StoryObj = {
-  render: () => (
-    <div className="w-96">
-      <ContactForm />
     </div>
   ),
 };

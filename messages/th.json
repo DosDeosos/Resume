@@ -20,7 +20,10 @@
     "softSkills": "ทักษะด้านอารมณ์",
     "education": "การศึกษา",
     "showcase": "โชว์เคส",
-    "locales": { "en": "EN", "th": "TH" },
+    "locales": {
+      "en": "EN",
+      "th": "TH"
+    },
     "storybook": "Storybook",
     "tour": "นำชม",
     "downloadPdf": "ดาวน์โหลด PDF"
@@ -167,14 +170,6 @@
     "title": "โชว์เคสสาธิตสด",
     "subtitle": "ตัวอย่างการทำงานจริงของเทคโนโลยีที่ใช้ รันอยู่ในเบราว์เซอร์ตรงนี้เลย",
     "cards": {
-      "shader": {
-        "title": "WebGL shader",
-        "description": "GLSL fragment shader ที่เขียนเอง เรนเดอร์ด้วย Three.js และ React Three Fiber"
-      },
-      "form": {
-        "title": "ฟอร์มติดต่อพร้อมตรวจสอบข้อมูล",
-        "description": "React Hook Form + Zod สำหรับตรวจสอบข้อมูล เมื่อกดส่งจะเปิดโปรแกรมอีเมลพร้อมข้อความที่กรอกไว้"
-      },
       "github": {
         "title": "กิจกรรมบน GitHub",
         "description": "รีโพสิทอรีสาธารณะล่าสุด ดึงจาก GitHub REST API ด้วย TanStack Query"
@@ -190,32 +185,7 @@
       "map": {
         "title": "ตำแหน่งที่ตั้ง",
         "description": "แผนที่ Google Maps ของเขตที่พักอาศัยในกรุงเทพฯ"
-      },
-      "storybook": {
-        "title": "กล่องเครื่องมือ UI",
-        "description": "คอมโพเนนต์แอนิเมชันและ 3 มิติทุกชิ้นในหน้านี้ถูกจัดหมวดหมู่ไว้ใน Storybook",
-        "action": "เปิด Storybook"
-      },
-      "tour": {
-        "title": "นำชมเรซูเม่",
-        "description": "ทัวร์แนะนำเรซูเม่ที่ใช้คีย์บอร์ดได้ ขับเคลื่อนด้วย Driver.js",
-        "action": "เริ่มนำชม"
       }
-    },
-    "form": {
-      "name": "ชื่อของคุณ",
-      "email": "อีเมลของคุณ",
-      "message": "ข้อความ",
-      "submit": "ส่งอีเมล",
-      "namePlaceholder": "สมชาย ใจดี",
-      "emailPlaceholder": "somchai@example.com",
-      "messagePlaceholder": "เล่าเกี่ยวกับโปรเจกต์ของคุณ…",
-      "errors": {
-        "nameMin": "กรุณากรอกอย่างน้อย 2 ตัวอักษร",
-        "emailInvalid": "กรุณากรอกอีเมลให้ถูกต้อง",
-        "messageMin": "กรุณาเขียนอย่างน้อย 10 ตัวอักษร"
-      },
-      "success": "โปรแกรมอีเมลของคุณควรเปิดขึ้นแล้ว"
     },
     "github": {
       "loading": "กำลังโหลดรีโพสิทอรี…",

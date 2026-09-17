@@ -1,6 +1,6 @@
 # Vuttipat Srisumran — Interactive Resume
 
-Bilingual (EN/TH) resume built with Next.js 16 (App Router, webpack), React 19, TypeScript, Tailwind CSS v4 and next-intl. Every tool on the resume is demonstrated live on the page: Three.js / React Three Fiber scenes, a GLSL shader, ECharts and Recharts, React Hook Form + Zod, TanStack Query, jsPDF / ExcelJS exports, QR codes, a Driver.js tour, HeroUI + Radix components, and a Storybook toolbox.
+Bilingual (EN/TH) resume built with Next.js 16 (App Router, webpack), React 19, TypeScript, Tailwind CSS v4 and next-intl. Every tool on the resume is demonstrated live on the page: Three.js / React Three Fiber scenes, a GLSL shader, ECharts and Recharts, TanStack Query, jsPDF / ExcelJS exports, QR codes, a Driver.js tour, HeroUI + Radix components, and a Storybook toolbox.
 
 ## Requirements
 
