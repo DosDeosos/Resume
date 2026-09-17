@@ -64,7 +64,7 @@ export function StackCategoryCard({ category }: StackCategoryCardProps) {
           {t(`categories.${category.id}`)}
         </h3>
       </div>
-      <ul className="mt-2 flex grow flex-wrap gap-1.5">
+      <ul className="mt-2 flex grow flex-wrap content-start items-start gap-1.5">
         {category.items.map((item) => (
           <li
             key={item}
